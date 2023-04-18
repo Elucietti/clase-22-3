@@ -11,3 +11,15 @@ arreglo.forEach(element => {
     console.log(element)
 });
 
+console.log("arreglo filtro pares");
+
+let pares=arreglo.filter(
+    par=>par/2==0
+)
+console.log(pares);
+
+console.log("arreglo map");
+
+
+let multiplo=arreglo.map(numero=>numero*2);
+console.log(multiplo);
